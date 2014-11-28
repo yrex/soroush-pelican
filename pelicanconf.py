@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Soroush Javidi'
-SITENAME = 'Sorou.sh'
+SITENAME = 'Soroush Javidi'
 SITEURL = ''
 SITESUBTITLE = ''
 
