@@ -3,12 +3,14 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Soroush Javidi'
-SITENAME = 'Soroush Javidi'
+SITENAME = 'SOROU.SH'
 SITEURL = ''
 SITESUBTITLE = ''
 
 SITE_DESCRIPTION = "Hello, I'm Soroush Javidi, and this is my website. I list my work and write articles on topics that interest me."
 SITE_KEYWORDS = 'Soroush, Javidi, Signal Processing, Machine Learning, Finance, Research, Programming, Algorithm, Python, Rapid Application Development, MATLAB'
+
+GOOGLE_VERIFICATION = 'BJJK_2K6ly1OjytWJxk-FxUqBKxe5qiS1bg0pFsBWhM'
 
 PATH = 'content'
 
@@ -24,23 +26,41 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+# LINKS = (('Pelican', 'http://getpelican.com/'),
+#          ('Python.org', 'http://python.org/'),
+#          ('Jinja2', 'http://jinja.pocoo.org/'),
+#          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('linkedin', 'http://uk.linkedin.com/in/soroushjavidi'),
+          ('github', 'http://github.com/yrex'),
+          ('email', 'mailto:my-name-dot-surname-at-this-domain'),)
 
 DEFAULT_PAGINATION = 10
+
+MENUITEMS = [('Posts','/posts')]
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
 # Themes
 # THEME = 'themes/notmyidea2'
-THEME = '../custom-pelican-themes/mnmlist2'
+# THEME = '../custom-pelican-themes/mnmlist2'
+THEME = '../custom-pelican-themes/pelican-bootstrap32'
+BOOTSTRAP_THEME = 'yeti'
+CUSTOM_CSS = 'files/custom.css'
+FAVICON = 'favicon.ico'
+# PYGMENTS_STYLE = 'vim'
+SITELOGO = 'images/SJ_logo_W.png'
+SITELOGO_SIZE = '25'
+BOOTSTRAP_NAVBAR_INVERSE = False
+HIDE_SIDEBAR = False
+DISPLAY_TAGS_ON_SIDEBAR = False
+# BANNER = 'images/banner2.jpg'
+# BANNER_ALL_PAGES = True
+# ABOUT_ME = ' '
+AVATAR = 'images/SJ_logo_BW.png'
+# CC_LICENSE = 'CC-BY-SA'
 
 
 STATIC_PATHS = ['images', 'files']
