@@ -34,6 +34,7 @@ AUTHOR_FEED_RSS = None
 # Social widget
 SOCIAL = (('linkedin', 'http://uk.linkedin.com/in/soroushjavidi'),
           ('github', 'http://github.com/yrex'),
+          ('gitlab', 'http://gitlab.com/yrex'),
           ('email', 'mailto:my-name-dot-surname-at-this-domain'),)
 
 DEFAULT_PAGINATION = 10
