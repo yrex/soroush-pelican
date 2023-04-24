@@ -1,5 +1,5 @@
 Title: About Me
-Date: 2014-11-24 23:18
+Date: 2023-04-24 12:49
 Slug: about
 Url: index.html
 save_as: index.html
@@ -18,5 +18,5 @@ I am now working as a quantitative developer, creating and supporting tactical t
 
 I also like running, brewing good coffee (_yes, I'm one of those people!_), design and serendipitous music discovery.
 
-You can find me on [LinkedIn](http://uk.linkedin.com/in/soroushjavidi) and also see what I've been building on [GitHub](https://github.com/yrex), or, be old-school and send me an email on `< my name dot surname at this domain >`.
+You can find me on [LinkedIn](https://www.linkedin.com/in/soroushjavidi) and also see what I've been building on [GitHub](https://github.com/yrex), or, be old-school and send me an email on `< my name dot surname at this domain >`.
 
