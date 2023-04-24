@@ -32,7 +32,7 @@ AUTHOR_FEED_RSS = None
 #          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('linkedin', 'http://uk.linkedin.com/in/soroushjavidi'),
+SOCIAL = (('linkedin', 'http://www.linkedin.com/in/soroushjavidi'),
           ('github', 'http://github.com/yrex'),
           ('gitlab', 'http://gitlab.com/yrex'),
           ('email', 'mailto:my-name-dot-surname-at-this-domain'),)
@@ -71,7 +71,7 @@ EXTRA_PATH_METADATA = {
 }
 
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap', 'posts')
-PAGINATED_DIRECT_TEMPLATES = ('posts', 'index')
+PAGINATED_TEMPLATES = {'posts': None, 'index': None}
 
 DISPLAY_CATEGORIES_ON_MENU = False
 # DISPLAY_PAGES_ON_MENU = False
